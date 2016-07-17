@@ -1,0 +1,166 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body{
+  font-family: avenir;
+}
+
+a{
+  text-decoration: none;
+  color: white !important;
+  padding: 15px;
+  vertical-align: middle;
+}
+
+.title-bar{
+  background-color: #004D40;
+  padding:15px 0px;
+  width: 100%;
+  color: white;
+  font-weight: 100;
+  text-align: center
+
+}
+.spacer{
+  height: 55px;
+  z-index: -1;
+}
+.about-content{
+  padding: 30px;
+  color: black;
+}
+.fullscreen{
+  height: 100%;
+}
+
+.nav-bar{
+  max-width: 1200px;
+  position: fixed;
+  z-index: 1;
+  background-color: #004D40;
+  padding:15px 0px;
+  width: 100%;
+  color: white;
+  font-weight: 100;
+  text-align: center
+}
+
+.section{
+  position: relative;
+  overflow: hidden;
+}
+
+.section-content{
+  text-align: center;
+}
+
+.scrolling-images{
+  margin: auto;
+  height:800px;
+  }
+
+
+.max-width{
+  max-width: 1200px;
+  margin: auto;
+}
+
+.location{
+  background-color: #4DB6AC;
+  padding-top: 10px;
+  color: white;
+
+}
+
+#franceoutline{
+  padding-top: 50px;
+}
+
+.underline{
+  width: 50%;
+  margin-top: 5px;
+  background-color: black;
+  height: 2px;
+  color: black;
+  border: none;
+}
+
+.background{
+  background: linear-gradient(
+  rgba(235, 235, 235, .60),
+  rgba(235, 235, 235, .60)),
+  image-url("Outsideeating.jpg");
+  background-repeat: no-repeat;
+  background-size:100% 100vh;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
+
+// * {
+//   margin: 0;
+//   padding: 0;
+//   box-sizing: border-box;
+// }
+
+
+
+.galler-section{
+  position: relative;
+
+}
+.gallery {
+  width: 100%;
+  margin: 0 auto;
+  padding: 50px;
+  // background: #fff;
+  // box-shadow: 0 1px 2px rgba(0,0,0,.3);
+}
+
+.gallery > div {
+  position: relative;
+  float: left;
+  padding: 5px;
+}
+
+.gallery > div > img {
+  display: block;
+  width: 210px;
+  transition: .1s transform;
+  transform: translateZ(0); /* hack */
+  border-radius: 5px;
+    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+
+
+}
+
+.gallery > div:hover {
+  z-index: 1;
+}
+
+.gallery > div:hover > img {
+  transform: scale(1.7,1.7);
+  transition: .3s transform;
+  -webkit-filter: none;
+  filter: none;
+}
+
+.cf:before, .cf:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+
+.cf:after {
+  clear: both;
+}
+
+.calendar-container{
+  width: 60%;
+  margin-left: 40px;
+  margin-top: 40px;
+  background-color: white;
+}
