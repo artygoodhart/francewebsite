@@ -23,7 +23,7 @@ a{
 
 }
 .spacer{
-  height: 55px;
+  height: 50px;
   z-index: -1;
 }
 .about-content{
@@ -62,7 +62,7 @@ a{
 
 
 .max-width{
-  max-width: 1200px;
+  max-width: 900px;
   margin: auto;
 }
 
@@ -88,22 +88,17 @@ a{
 
 .background{
   background: linear-gradient(
-  rgba(235, 235, 235, .60),
-  rgba(235, 235, 235, .60)),
+  rgba(235, 235, 235, .75),
+  rgba(235, 235, 235, .75)),
   image-url("Outsideeating.jpg");
-  background-repeat: no-repeat;
-  background-size:100% 100vh;
+  background-size:900px;
   background-position: center;
   background-attachment: fixed;
 }
 
 
 
-// * {
-//   margin: 0;
-//   padding: 0;
-//   box-sizing: border-box;
-// }
+
 
 
 
@@ -127,7 +122,7 @@ a{
 
 .gallery > div > img {
   display: block;
-  width: 210px;
+  width: 190px;
   transition: .1s transform;
   transform: translateZ(0); /* hack */
   border-radius: 5px;
@@ -163,4 +158,30 @@ a{
   margin-left: 40px;
   margin-top: 40px;
   background-color: white;
+}
+
+.map-container{
+  width: cover;
+  height: 500px;
+}
+
+.activity-header{
+  padding: 50px;
+}
+
+.activity-image{
+  margin: 50px 0px;
+  border-radius: 5px;
+  height: 200px;
+  display: inline-block;
+}
+
+.village-image{
+  border-radius: 5px;
+  height: 130px;
+  margin: 30px 0px;
+}
+
+.link-style{
+  link-style: none;
 }

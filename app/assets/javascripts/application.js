@@ -14,9 +14,10 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require js-image-slider
+//= require underscore
+//= require gmaps/google
 //= require_tree .
 
-src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"
 
 $(document).ready(function(){
   // Add smooth scrolling to all links
