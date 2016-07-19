@@ -3,7 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 body{
-  font-family: lato;
+  font-family: 'Lato', sans-serif; 
 }
 
 a{
@@ -184,4 +184,9 @@ a{
 
 .link-style{
   link-style: none;
+}
+
+.property-header{
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
 }
