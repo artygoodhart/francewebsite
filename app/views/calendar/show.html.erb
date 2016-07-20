@@ -158,8 +158,8 @@
           "lng": 0.811010,
           "picture": {
             "url": "http://icons.iconarchive.com/icons/icons-land/vista-map-markers/32/Map-Marker-Marker-Outside-Azure-icon.png",
-            "width":  32,
-            "height": 32
+            "width":  40,
+            "height": 40
           },
           "infowindow": "The Property! "
         },
@@ -174,15 +174,56 @@
           "infowindow": "Toulose Airport "
         },
         {
-          "lat": 43.795359,
-          "lng": 0.823040,
+          "lat": 43.795466,
+          "lng": 0.822173,
           "picture": {
             "url": "http://icons.iconarchive.com/icons/icons-land/vista-map-markers/32/Map-Marker-Marker-Outside-Chartreuse-icon.png",
             "width":  32,
             "height": 32
           },
           "infowindow": "Monfort! The local village."
-        }
+        },
+        {
+          "lat": 44.10562,
+          "lng": 0.727695,
+          "picture": {
+            "url": "http://icons.iconarchive.com/icons/icons-land/vista-map-markers/32/Map-Marker-Marker-Outside-Chartreuse-icon.png",
+            "width":  32,
+            "height": 32
+          },
+          "infowindow": "Go Karting"
+        },
+        {
+          "lat": 43.619586,
+          "lng": 1.071170,
+          "picture": {
+            "url": "http://icons.iconarchive.com/icons/icons-land/vista-map-markers/32/Map-Marker-Marker-Outside-Chartreuse-icon.png",
+            "width":  32,
+            "height": 32
+          },
+          "infowindow": "Wakeboarding"
+        },
+        {
+          "lat": 43.730566,
+          "lng": 0.877422,
+          "picture": {
+            "url": "http://icons.iconarchive.com/icons/icons-land/vista-map-markers/32/Map-Marker-Marker-Outside-Chartreuse-icon.png",
+            "width":  32,
+            "height": 32
+          },
+          "infowindow": "Mauvezin local town with weekly markets"
+        },
+        {
+          "lat": 43.849727,
+          "lng": 0.662618,
+          "picture": {
+            "url": "http://icons.iconarchive.com/icons/icons-land/vista-map-markers/32/Map-Marker-Marker-Outside-Chartreuse-icon.png",
+            "width":  32,
+            "height": 32
+          },
+          "infowindow": "Fleurance local town with weekly market"
+        },
+
       ]);
       handler.bounds.extendWith(markers);
 
@@ -232,23 +273,37 @@
         </div>
         <div class="rowe">
           <div class="four columns">
-            Allée du Lac, 32600 L'Isle-Jourdain, France</br>
+            Allée du Lac, 32600 L'Isle-Jourdain</br>
             Kneeboarding-Wakeboarding Cable park.</br>
-            20 minute drive - Approx </br>
-            <%= image_tag("wake.png", class: "activity-image") %>
+            30 minute drive - Approx </br>
+
           </div>
           <div class="four columns">
-            21 Rue Jean-Manuel Fangio, 31600 Muret, France</br>
-            Go Karting</br>
-            40 minute drive - Approx </br>
-            <%= image_tag("kart.png", class: "activity-image") %>
+
+            Lieu dit Peyroche,
+            Route d'Astaffort,
+            47220 Caudecoste,
+            40 minute drive - Approx
+
           </div>
           <div class="four columns">
             Newly laid tennis court</br>
-            in nearby Monfort village</br>
-            10 minute drive - Approx </br>
-            <%= image_tag("tennis.png", class: "activity-image") %>
+            in Monfort village</br>
+            5 minute drive - Approx </br>
+
           </div>
+        </div>
+        <div class="rowe">
+          <div class="four columns">
+            <%= image_tag("wake.png", class: "activity-image") %>
+          </div>
+          <div class="four columns">
+            <%= image_tag("kart.png", class: "activity-image") %>
+          </div>
+          <div class="four columns">
+              <%= image_tag("tennis.png", class: "activity-image") %>
+          </div>
+
         </div>
 
 
