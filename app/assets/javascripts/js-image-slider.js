@@ -4,7 +4,7 @@ var sliderOptions=
 	startSlide: "shuffle", //can be 0, 1, ... or "shuffle", or "random"
 	effect: "13",
 	effectRandom: false,
-	pauseTime: 1600,
+	pauseTime: 3000,
 	transitionTime: 500,
 	slices: 14,
 	boxes: 9,

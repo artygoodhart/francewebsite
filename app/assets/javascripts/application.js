@@ -18,6 +18,16 @@
 //= require gmaps/google
 //= require_tree .
 
+$(function()
+{
+     $("a#toggle").click(function()
+     {
+         $("#contact").slideToggle();
+         return false;
+     });
+});
+
+
 
 $(document).ready(function(){
   // Add smooth scrolling to all links

@@ -6,12 +6,8 @@ body{
   font-family: 'Lato', sans-serif;
 }
 
-a{
-  text-decoration: none;
-  color: white !important;
-  padding: 15px;
-  vertical-align: middle;
-}
+
+
 
 .title-bar{
   background-color: #004D40;
@@ -27,8 +23,8 @@ a{
   z-index: -1;
 }
 .about-content{
-  padding: 30px;
   color: black;
+  height: 850px;
 }
 .fullscreen{
   height: 100%;
@@ -43,7 +39,13 @@ a{
   width: 100%;
   color: white;
   font-weight: 100;
-  text-align: center
+  text-align: center;
+  a{
+    text-decoration: none;
+    color: white !important;
+    padding: 15px;
+    vertical-align: middle;
+  }
 }
 
 .section{
@@ -87,20 +89,30 @@ a{
 }
 
 .background{
-  background: linear-gradient(
-  rgba(235, 235, 235, .75),
-  rgba(235, 235, 235, .75)),
+  background:image-url("Outsideeating.jpg");
+  background-repeat: no-repeat;
+  background-size:900px;
+  background-position: center;
+  background-attachment: fixed;
+}
+.background-repeat{
+  background:repeating-linear-gradient(
+  rgba(235, 235, 235, .70),
+  rgba(235, 235, 235, .70)),
   image-url("Outsideeating.jpg");
   background-size:900px;
   background-position: center;
   background-attachment: fixed;
 }
 
-
-
-
-
-
+.filter{
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(235, 235, 235, 0.71);;
+  position:absolute;
+  padding: 50px;
+}
 
 .galler-section{
   position: relative;
@@ -189,4 +201,51 @@ a{
 .property-header{
   font-family: 'Lato', sans-serif;
   font-weight: 700;
+}
+
+
+
+.contact-content{
+  padding-bottom: 30px;
+  background-color: #607D8B;
+  color: white;
+}
+
+.my-info{
+  float:left;
+  font-size: 9px;
+  color: white;
+  margin-left: 10px;
+  padding-top:15px;
+}
+
+.directions{
+  padding: 20px;
+  background-color: #4DB6AC;
+  border-top: solid;
+  border-color: black;
+  border-width: 2px;
+}
+
+#contact
+{
+    display: none;
+    background: #4DB6AC;
+    color: white;
+    padding: 10px;
+}
+
+#toggle{
+  color: black !important;
+  font-size: 25px;
+}
+
+.downarrows{
+  float: left;
+}
+
+.button-style{
+  color: #FFF!important;
+  background-color: #33C3F0!important;
+  border-color: #33C3F0!important;
 }
