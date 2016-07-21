@@ -7,7 +7,9 @@ body{
 }
 
 
-
+.width{
+  width: 100%;
+}
 
 .title-bar{
   background-color: #004D40;
@@ -24,14 +26,14 @@ body{
 }
 .about-content{
   color: black;
-  height: 850px;
+  padding: 50px;
 }
 .fullscreen{
   height: 100%;
 }
 
 .nav-bar{
-  max-width: 1200px;
+
   position: fixed;
   z-index: 1;
   background-color: #004D40;
@@ -63,10 +65,10 @@ body{
   }
 
 
-.max-width{
-  max-width: 900px;
-  margin: auto;
-}
+// .max-width{
+//   max-width: 900px;
+//   margin: auto;
+// }
 
 .location{
   background-color: #4DB6AC;
@@ -88,30 +90,13 @@ body{
   border: none;
 }
 
-.background{
-  background:image-url("Outsideeating.jpg");
-  background-repeat: no-repeat;
-  background-size:900px;
-  background-position: center;
-  background-attachment: fixed;
-}
 .background-repeat{
   background:repeating-linear-gradient(
   rgba(235, 235, 235, .70),
-  rgba(235, 235, 235, .70)),
-  image-url("Outsideeating.jpg");
-  background-size:900px;
+  rgba(235, 235, 235, .70));
+  background-size:cover;
   background-position: center;
   background-attachment: fixed;
-}
-
-.filter{
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: rgba(235, 235, 235, 0.71);;
-  position:absolute;
-  padding: 50px;
 }
 
 .galler-section{
@@ -121,7 +106,7 @@ body{
 .gallery {
   width: 100%;
   margin: 0 auto;
-  padding: 50px;
+  padding: 50px 10px;
   // background: #fff;
   // box-shadow: 0 1px 2px rgba(0,0,0,.3);
 }
@@ -206,7 +191,7 @@ body{
 
 
 .contact-content{
-  padding-bottom: 30px;
+  padding-bottom: 80px;
   background-color: #607D8B;
   color: white;
 }
@@ -216,7 +201,7 @@ body{
   font-size: 9px;
   color: white;
   margin-left: 10px;
-  padding-top:15px;
+  padding-top:55px;
 }
 
 .directions{
