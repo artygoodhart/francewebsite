@@ -90,6 +90,15 @@ body{
   border: none;
 }
 
+.underline-white{
+  width: 50%;
+  margin-top: 5px;
+  background-color: white;
+  height: 2px;
+  color: black;
+  border: none;
+}
+
 .background-repeat{
   background:repeating-linear-gradient(
   rgba(235, 235, 235, .70),
@@ -106,7 +115,7 @@ body{
 .gallery {
   width: 100%;
   margin: 0 auto;
-  padding: 50px 10px;
+  padding: 50px 0px;
   // background: #fff;
   // box-shadow: 0 1px 2px rgba(0,0,0,.3);
 }
@@ -119,7 +128,7 @@ body{
 
 .gallery > div > img {
   display: block;
-  width: 190px;
+  width: 215px;
   transition: .1s transform;
   transform: translateZ(0); /* hack */
   border-radius: 5px;
@@ -186,6 +195,7 @@ body{
 .property-header{
   font-family: 'Lato', sans-serif;
   font-weight: 700;
+  font-size: 18px;
 }
 
 
@@ -231,7 +241,7 @@ body{
 .property-header-amenities{
   font-family: 'Lato', sans-serif;
   font-weight: 700;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .padding-local-amenities{
