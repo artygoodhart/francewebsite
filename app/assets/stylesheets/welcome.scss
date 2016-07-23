@@ -151,10 +151,10 @@ body{
 }
 
 .calendar-container{
-  width: 60%;
-  margin-left: 40px;
-  margin-top: 40px;
-  background-color: white;
+  width: 90%;
+  height: 500px;
+  margin-top: 20px;
+  border-radius: 5px;
 }
 
 .map-container{
@@ -236,4 +236,9 @@ body{
 
 .padding-local-amenities{
   padding-top: 30px;
+}
+
+.icons-style{
+  color: black!important;
+  padding: 10px;
 }
