@@ -167,9 +167,9 @@ body{
 }
 
 .activity-image{
-  margin: 0px 30px;
+  margin: 30px;
   border-radius: 5px;
-  width: 80%;
+  width: 200px;
   display: inline-block;
 }
 
@@ -196,13 +196,6 @@ body{
   color: white;
 }
 
-.my-info{
-  float:left;
-  font-size: 9px;
-  color: white;
-  margin-left: 10px;
-  padding-top:15px;
-}
 
 .directions{
   padding: 20px;
@@ -233,4 +226,14 @@ body{
   color: #FFF!important;
   background-color: #33C3F0!important;
   border-color: #33C3F0!important;
+}
+
+.property-header-amenities{
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.padding-local-amenities{
+  padding-top: 30px;
 }

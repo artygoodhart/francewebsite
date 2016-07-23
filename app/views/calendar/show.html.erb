@@ -263,19 +263,18 @@
   <div class="section">
     <div class="background-repeat">
       <div class="section-content">
-        <div class="rowe activity-header">
-          <p class="property-header">Local Towns and Villages</p>
-        </div>
-        <div class="rowe">
+        <div class="rowe padding-local-amenities">
           <div class="six columns">
-            <p class="property-header">Mauvezin</p>
+            <p class="property-header-amenities">Mauvezin</p>
+            <hr class="underline">
             <%= image_tag("Mauvezin.jpg", class: "village-image") %>
             <%= image_tag("Mauvezin-potent.jpg", class: "village-image") %>
           </br>
           Historic market town, with weekly Monday market. </br>See map for Location and Directions.
         </div>
         <div class="six columns">
-          <p class="property-header">Monfort</p>
+          <p class="property-header-amenities">Monfort</p>
+          <hr class="underline">
           <%= image_tag("monfort.jpg", class: "village-image") %>
           <%= image_tag("Monfort2.jpg", class: "village-image") %>
         </br>
@@ -286,7 +285,8 @@
     </div>
 
     <div class="rowe activity-header">
-      <p class="property-header">Kids Activites</p>
+      <p class="property-header-amenities">Kids Activites</p>
+      <hr class="underline">
     </div>
     <div class="rowe">
       <div class="four columns">
@@ -412,35 +412,6 @@
       Email: monfort.holidays@gmail.com </br>
       Phone: 07123456778 </br>
     </div>
-    <div class="my-info">
-      Designed and built by Arthur Goodhart
-    </div>
 
-
-
-
-
-    <!-- <div class="calendar-container">
-    <div class="row">
-    <div class="col-md-12 text-center">
-    <div class="well controls">
-    <%= link_to calendar_path(date: @date - 1.month), class: "btn btn-default" do %>
-    <i class="glyphicon glyphicon-backward"></i>
-    <% end %>
-    <%= "#{@date.strftime("%B")} #{@date.year}" %>
-    <%= link_to calendar_path(date: @date + 1.month), class: "btn btn-default" do %>
-    <i class="glyphicon glyphicon-forward"></i>
-    <% end %>
-  </div>
-</div>
-</div>
-<div class="row">
-<div class="col-md-12">
-<%= calendar @date do |date| %>
-<%= date.day %>
-<% end %>
-</div>
-</div>
-</div> -->
 </div>
 </div>
