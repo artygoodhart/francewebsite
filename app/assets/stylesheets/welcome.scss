@@ -203,7 +203,7 @@ body{
 
 
 .contact-content{
-  padding-bottom: 80px;
+  padding-bottom: 10px;
   background-color: #607D8B;
   color: white;
 }
@@ -287,4 +287,16 @@ body{
 
 .spacing{
   padding-top: 40px;
+}
+
+.my-info{
+  float:left;
+  padding-bottom: 10px;
+  font-size: 12px;
+  padding-left: 5px;
+}
+
+.my-info-background{
+  background-color: #607D8B;
+  color: white;
 }
