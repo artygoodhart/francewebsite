@@ -74,6 +74,8 @@ body{
   background-color: #4DB6AC;
   padding-top: 10px;
   color: white;
+  font-size: 18px;
+  font-weight: 100;
 
 }
 
@@ -255,7 +257,7 @@ body{
 
 .link-hover{
   color: white;
-  text-decoration: none!important;
+  text-decoration: underline;
 
   a:hover{
     color: black!important;
