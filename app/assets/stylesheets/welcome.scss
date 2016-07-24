@@ -134,8 +134,6 @@ body{
   transition: .1s transform;
   transform: translateZ(0); /* hack */
   border-radius: 5px;
-    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
-    filter: grayscale(100%);
 
 
 }
@@ -299,4 +297,5 @@ body{
 .my-info-background{
   background-color: #607D8B;
   color: white;
+  font-weight: 100;
 }
